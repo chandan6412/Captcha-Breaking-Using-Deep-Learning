@@ -24,7 +24,7 @@ chrome_options.add_experimental_option("prefs", {
 
 filename ="captcha_code.png"
 
-url = "https://unifiedportal-epfo.epfindia.gov.in/publicPortal/no-auth/misReport/home/loadSearchTrrnHome"
+url = "Input Your Url"
 driver = webdriver.Chrome(chrome_options=chrome_options)
 
 driver.command_executor._commands["send_command"] = ("POST", '/session/$sessionId/chromium/send_command')
